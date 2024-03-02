@@ -3,7 +3,10 @@ const checkButton = document.getElementById("check-btn");
 const result = document.getElementById("result")
 
 const emptyInput = () => {
-    if (textInput.textContent === "") {
+    if (textInput.value === "") {
         alert("Please input a value");
     }
 };
+
+
+checkButton.addEventListener("click", emptyInput)
