@@ -43,5 +43,3 @@ const inputContent = () => {
 
 checkButton.addEventListener("click", lowerCaseInput);
 checkButton.addEventListener("click", inputContent);
-
-// faire des else if
