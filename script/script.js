@@ -4,17 +4,18 @@ const result = document.getElementById("result")
 
 const inputCheckout = () => {
 
-    const regex = /[^a-z]/g;
+    const regex = /[^a-zA-Z0-9]/g;
+    const beforeInput = textInput.value;
     if (textInput.value === "") {
         alert("Please input a value");
-    } else {
-        textInput.value = textInput.value.replace(regex, " ");
+    } else{
+        textInput.value = textInput.value.toLowerCase().replace(regex, "");
     };
 
     if (textInput.value === textInput.value.split("").reverse().join("")) {
-       result.innerHTML = `${textInput.value} is a palindrome.`;
+       result.innerHTML = `${beforeInput} is a palindrome.`;
     } else {
-        result.innerHTML = `${textInput.value} is not a palindrome.`;
+        result.innerHTML = `${beforeInput} is not a palindrome.`;
     };
 }
 
