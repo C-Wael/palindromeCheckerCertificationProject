@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #353535 ;
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    width: 300px;
+    border-radius: 15px;
+    border-bottom: 5px solid #CCC5B9;
+}
+
+.information-container {
+    margin: auto;
+    text-align: justify;
+    width: 300px;
+    color: #FFFFFF;
+}
