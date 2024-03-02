@@ -17,6 +17,14 @@ const inputCheckout = () => {
     } else {
         result.innerHTML = `${beforeInput} is not a palindrome.`;
     };
+
 }
 
+
 checkButton.addEventListener("click", inputCheckout);
+
+const deleteValue = () => {
+    textInput.value = "";
+}
+
+checkButton.addEventListener("click", deleteValue);
