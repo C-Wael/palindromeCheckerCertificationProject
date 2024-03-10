@@ -7,6 +7,7 @@ body {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 17px;
 }
 
 .container{
@@ -14,18 +15,22 @@ body {
     margin: auto;
     margin-top: 50px;
     padding: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     background-color: #FFFFFF;
-    width: 400px;
-    height: 120px;
+    width: 500px;
+    height: 160px;
     border-radius: 15px;
     border-bottom: 5px solid #CCC5B9;
+}
+
+#result{
+    margin-top: 10px;
 }
 
 .information-container {
     margin: auto;
     text-align: justify;
-    width: 400px;
+    width: 500px;
     height: 120px;
     padding: 10px;
     margin-top: 50px;
@@ -40,15 +45,23 @@ button {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: red;
+    background-color: #8338ec;
     border-radius: 15px;
-    height: 30px;
+    height: 40px;
+    color: white;
+}
+
+button:hover{
+    background-color: #83e8ba;
+    color: black;
+    cursor: pointer;
 }
 
 input {
-    height: 30px;
+    height: 40px;
     border-radius: 15px;
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 17px;
 }
